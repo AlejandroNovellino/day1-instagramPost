@@ -1,0 +1,77 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: black;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.post{
+    display: flex;
+    background: white;
+    width: 380px;
+    height: auto;
+    flex-direction: column;
+}
+
+.post-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em 0.7em 0.5em 1em;
+}
+
+.HTML-logo{
+    font-size: x-large;
+}
+
+.DOTS-logo{
+    font-size: x-large;
+}
+
+.user{
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+}
+
+.user h1{
+    margin: 0.35em 0em 0em 0.5em;
+    font-size: 0.85em;
+}
+
+.user p{
+    margin: 0em 0em 0em 0.5em;
+    font-size: 0.8em;
+}
+
+.post-content{
+    display: flex;
+    flex-flow: column;
+    padding: 0.7em 1em 0.5em 1em;
+    font-size: 0.8em;
+}
+
+.items{
+    display: flex;
+    font-size: x-large;
+    margin-bottom: 0.5em;
+}
+
+.items-left{
+    flex-grow: 1;
+}
+
+.likes p{
+    margin-bottom: 0;
+}
